@@ -6,4 +6,6 @@ import retrofit2.http.GET;
 public interface RequestInterface {
     @GET("users?page=2")
     Call<JSONResponse> getJSON();
+    //ss
+
 }

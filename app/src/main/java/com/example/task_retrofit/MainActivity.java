@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         loadJSON();
     }
     private void loadJSON(){
+        //s
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://reqres.in/api/")
                 .addConverterFactory(GsonConverterFactory.create())
