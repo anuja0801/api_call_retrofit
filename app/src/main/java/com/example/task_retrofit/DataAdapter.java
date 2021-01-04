@@ -22,6 +22,7 @@ public class DataAdapter  extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     public DataAdapter(Context context, ArrayList<Details> data) {
         this.context = context;
         this.data = data;
+//???
     }
 
     @NonNull
