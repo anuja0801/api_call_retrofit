@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
         recyclerView.setLayoutManager(layoutManager);
         loadJSON();
-        //execute
+        System.out.println("hello");
     }
     private void loadJSON(){
         //ss
