@@ -5,5 +5,6 @@ public class JSONResponse {
 
     public Details[] getData() {
         return data;
+        //ss
     }
 }
